@@ -9,10 +9,10 @@ Execution:
       
       URL end points: // all are GET method
       
-      1. http://localhost/dataIntensiveJobGCD/dependant
-      2. http://localhost/dataIntensiveJobGCD/independant
-      3. http://localhost/dataIntensiveJobAsync/dependant
-      4. http://localhost/dataIntensiveJobAsync/independant
+      1. http://localhost/dataIntensiveJobGCD/dependent
+      2. http://localhost/dataIntensiveJobGCD/independent
+      3. http://localhost/dataIntensiveJobAsync/dependent
+      4. http://localhost/dataIntensiveJobAsync/independent
       5. http://localhost/dataIntensiveJobGCD/iterate
       6. http://localhost/dataIntensiveJobAsync/iterate
       

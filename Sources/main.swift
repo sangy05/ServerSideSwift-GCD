@@ -22,10 +22,10 @@ HeliumLogger.use()
 
 let router = Router()
 
-router.get("/dataIntensiveJobAsync/independant") {
+router.get("/dataIntensiveJobAsync/independent") {
     request, response, next in
   let startTime = Date()
-  response.send("Running Independant Data Intensive Job with Nested Async\n\n")
+  response.send("Running Independent Data Intensive Job with Nested Async\n\n")
   response.send("Running Time(in Sec): p1 = 3, p2 = 4, p3 = 2, p4 = 6, p5 = 1 \n\n")
   
   let bulkOperationAsyncObject = BulkOperationAsync()
@@ -41,11 +41,11 @@ router.get("/dataIntensiveJobAsync/independant") {
 }
 
 
-router.get("/dataIntensiveJobGCD/independant") {
+router.get("/dataIntensiveJobGCD/independent") {
   request, response, next in
   
   let startTime = Date()
-  response.send("Running Independant Data Intensive Job with OperationQueue\n\n")
+  response.send("Running Independent Data Intensive Job with OperationQueue\n\n")
   response.send("Running Time(in Sec): p1 = 3, p2 = 4, p3 = 2, p4 = 6, p5 = 1 \n\n")
   
   
@@ -63,10 +63,10 @@ router.get("/dataIntensiveJobGCD/independant") {
 
 
 
-router.get("/dataIntensiveJobAsync/dependant") {
+router.get("/dataIntensiveJobAsync/dependent") {
   request, response, next in
   let startTime = Date()
-  response.send("Running Dependant Data Intensive Job with Nested Async\n\n")
+  response.send("Running Dependent Data Intensive Job with Nested Async\n\n")
   response.send("[p1 - p2] && [p3 - p4] \n\n")
   response.send("Running Time(in Sec): p1 = 3, p2 = 4, p3 = 2, p4 = 6 \n\n")
   
@@ -83,11 +83,11 @@ router.get("/dataIntensiveJobAsync/dependant") {
 }
 
 
-router.get("/dataIntensiveJobGCD/dependant") {
+router.get("/dataIntensiveJobGCD/dependent") {
   request, response, next in
   
   let startTime = Date()
-  response.send("Running Dependant Data Intensive Job with GCD\n\n")
+  response.send("Running Dependent Data Intensive Job with GCD\n\n")
   response.send("[p1 - p2] && [p3 - p4] \n\n")
   response.send("Running Time(in Sec): p1 = 3, p2 = 4, p3 = 2, p4 = 6 \n\n")
   

@@ -1,6 +1,9 @@
 # ServerSideSwift-GCD
 Asynchronous Server Side Swift Progamming with GCD and Operation
 
+Article Reference:
+https://developer.ibm.com/swift/2018/05/22/server-side-swift-using-gcd/
+
 Execution:
 1. Clone the code
 2. Go to folder and use command 'swift build' to fetch the dependancy and build.
@@ -16,9 +19,7 @@ Execution:
       5. http://localhost/dataIntensiveJobGCD/iterate
       6. http://localhost/dataIntensiveJobAsync/iterate
       
-      Article Reference:
-      https://developer.ibm.com/swift/?p=6866
-      
+    
       
       Author:
       Sangeeth K Sivakumar
